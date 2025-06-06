@@ -1,10 +1,10 @@
 import React from "react";
-import PricingSection from "./PricingSection";
+import Dashboard from "./Dashboard";
 
 const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-black">
-      <PricingSection />
+      <Dashboard />
     </div>
   );
 };
